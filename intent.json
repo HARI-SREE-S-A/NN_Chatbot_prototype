@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "hii", "good morning", "greetings", "whatsup"],
+      "responses": ["Hello", "Hey", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["see you later", "bye", "thank you", "thanks", "it's good talking with you", "exit"],
+      "responses": ["Sad to see you leave", "It was a pleasure talking with you", "Thank you, have a great day", "Thank you for talking with me"]
+    },
+    {
+      "tag": "python_basics",
+      "patterns": ["python basics", "basics of python", "python introduction"],
+      "responses": ["Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used in various domains such as web development, data science, artificial intelligence, and more.", "To print in Python, you can use the print() function. For example, print('Hello, World!')", "You can create variables in Python simply by assigning a value to a name. For example, x = 5", "Python supports different types of loops, including for loops and while loops. For example, for i in range(5): print(i)", "Functions in Python are defined using the 'def' keyword. For example, def greet(name): print('Hello, ' + name)"]
+    },
+    {
+      "tag": "how_chatbot_works",
+      "patterns": ["how chatbot works", "chatbot functioning", "chatbot basics"],
+      "responses": ["A chatbot is a program designed to simulate conversation with human users, especially over the internet. It works by interpreting user input, processing it, and generating appropriate responses based on predefined rules or machine learning algorithms.", "Chatbots use Natural Language Processing (NLP) techniques to understand and interpret user input. They analyze the text, identify keywords, and determine the user's intent.", "Chatbots can be rule-based or AI-based. Rule-based chatbots follow predefined rules and patterns to generate responses, while AI-based chatbots use machine learning algorithms to learn from data and improve over time."]
+    },
+    {
+      "tag": "python_future_scopes",
+      "patterns": ["future of python", "python career opportunities", "python job prospects"],
+      "responses": ["Python has a bright future with increasing demand in various industries such as web development, data science, machine learning, artificial intelligence, and more.", "Python developers are in high demand due to its versatility and ease of use. Job opportunities include software development, data analysis, automation, and more."]
+    },
+    {
+      "tag": "dsa_basics",
+      "patterns": ["dsa basics", "basics of data structures and algorithms", "data structures and algorithms introduction"],
+      "responses": ["Data Structures and Algorithms (DSA) are fundamental concepts in computer science that deal with organizing and managing data effectively to solve problems efficiently.", "Common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Algorithms are step-by-step procedures for solving problems using these data structures.", "DSA is essential for writing efficient and optimized code. It's widely used in software development, system design, and technical interviews."]
+    },
+    {
+      "tag": "dsa_future_scopes",
+      "patterns": ["future of dsa", "dsa career opportunities", "dsa job prospects"],
+      "responses": ["DSA skills are highly valued in the tech industry, especially for roles such as software engineers, data scientists, system designers, and algorithm engineers.", "Proficiency in DSA opens up opportunities for working on challenging projects, contributing to open-source communities, and excelling in technical interviews for top tech companies."]
+    },
+    {
+      "tag": "general_chatbot_queries",
+      "patterns": ["what is a chatbot", "types of chatbots", "chatbot examples"],
+      "responses": ["A chatbot is a computer program designed to simulate conversation with human users, typically over the internet. Chatbots can be rule-based, AI-based, or a combination of both.", "Types of chatbots include virtual assistants, customer service bots, informational bots, and entertainment bots.", "Examples of chatbots include Siri, Alexa, Google Assistant, and customer service chatbots used by various companies."]
+    },
+    {
+      "tag": "resume_details",
+      "patterns": ["resume details", "resume summary", "career summary"],
+      "responses": ["Harisree S A\nPh: +91 7012505419\nEmail: getharisree@outlook.com\nLocation: Trivandrum, Kerala (695528)\nLinkedIn: https://www.linkedin.com/in/hari-sree-suresh-070282137\nGitHub: HARI-SREE-S-A (harvis) (github.com)\n\nSummary: Passionate Python developer with a knack for innovation and problem-solving. Self-motivated, curious self-learner with a track record of independently completing numerous projects. Skilled in automation and applying academic knowledge to real-world scenarios. Recognized for teamwork, leadership, communication, and social skills."]
+    },
+    {
+      "tag": "education",
+      "patterns": ["education", "educational background", "qualifications"],
+      "responses": ["Bachelor of Engineering in Mechanical Engineering from Anna University 2016-2020"]
+    },
+    {
+      "tag": "skills",
+      "patterns": ["skills", "technical skills", "proficiency"],
+      "responses": ["AutoCAD, SolidWorks Intermediate \n Python Intermediate \n Hardware Troubleshooting Expert \n SQL Beginner \n JavaScript Beginner \n SCCM/Intune Intermediate \n Batch Script Intermediate"]
+    },
+    {
+      "tag": "certificates",
+      "patterns": ["certificates", "certifications", "awards"],
+      "responses": ["Microsoft AZ-900 Certified", "Microsoft AI-900 Certified", "Tamil Nadu Student Innovators #2017", "Entrepreneurship Development and Innovation Institute", "Winner “Make Work From Home work” International Hackathon by Weavy (2023)", "Runner up “Shell AI National Hackathon -2023", "Participated in “Nammayatri“Hackathon - 2023", "Best e leader award EDII -2020", "2nd prize in paper presentation alchemy national engineerssymposium (200ents) (2019)", "Tamil Nadu student innovator #2017 boot camp"]
+    },
+    {
+      "tag": "projects",
+      "patterns": ["projects", "project details", "portfolio"],
+      "responses": ["Insurance Radar Reminder App (Tech: MongoDB, React.js, Flask)", "Basic Carpooling Software (Tech: Python, Tkinter, MongoDB)", "AI Pareto based WMS (Tech: Python, Flask, Matplotlib, Tensor)", "Computer Vision based automation projects (Tech: Python, OpenCV, NumPy, Pandas, PyautoGUI)", "Generative AI based Projects (illuspeaker, Sadtalker)"]
+    },
+    {
+      "tag": "interests",
+      "patterns": ["interests", "fields of interests", "areas of interest"],
+      "responses": ["Research and development engineering", "Artificial Intelligence - Innovations", "Computer Vision", "Machine Learning"]
+    },
+    {
+      "tag": "experience",
+      "patterns": ["experience", "work experience", "employment history"],
+      "responses": ["Research and development engineer at Lumia electro systems (2020 June-2021 January) : Conducted Python-based research and development at Lumia Electro Systems. Specialized in embedded prototyping with NodeMCU, Arduino, and Raspberry Pi for diverse product enhancement.", "System Administrator at Vertes Solutions (2021 January- 2021 August) : Managed system administration duties at Vertes Solutions from Jan-Aug 2021. Executed Bash scripting for automation and provided hardware troubleshooting support for uninterrupted operations.", "Developer-Software Engineering at UST Global (2021 September to present) : As a Software Engineer at Infinity Lab, spearheaded an internal R&D project for a Smart AI Pareto-based Warehouse Management System. Leveraged Python libraries such as TensorFlow for neural networks, scikit-learn for machine learning algorithms, and NumPy for numerical computations. Moreover, adeptly managed a separate project involving the tech stack comprising SCCM, Intune, PowerShell, and Bash for seamless integration and automation."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "your name", "who are you"],
+      "responses": ["My name is Harvis", "I am Harvis, nice to meet you"]
+    }
+  ]
+}
