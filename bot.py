@@ -13,6 +13,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import load_model
 
 
+
 lemmatizer = WordNetLemmatizer()
 with open('intent.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
