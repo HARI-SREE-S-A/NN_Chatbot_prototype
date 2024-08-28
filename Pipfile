@@ -7,8 +7,8 @@ name = "pypi"
 flask = "*"
 numpy = ">=2.0.0"
 nltk=="3.6.7"
-numpy
-tensorflow
+numpy=="*"
+tensorflow=="*"
 
 [requires]
 python_version = "3.12"
